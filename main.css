@@ -76,7 +76,7 @@ header {
     font-size: 12px;
 }
 
-#card-info a {
+#card-info #link {
     color: rgb(220, 220, 250);
     text-decoration: none;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ header {
     transition: .2s ease;
 }
 
-#card-info a:active {
+#card-info #link:active {
     color: rgb(50, 50, 250);
     font-size: 11px;
     padding: 1px 5px 2px 5px;
@@ -108,6 +108,27 @@ table td {
 
 .row-data {
     font-size: 12px;
+}
+
+.card-btn {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.card-btn:hover {
+    color: rgb(100, 100, 250);
+    scale: 105%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.card-btn:active {
+    background-color: rgb(220, 220, 220);
 }
 
 
@@ -281,6 +302,16 @@ footer a {
     background-color: rgba(255, 255, 255, .1);
     color: azure;
     text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+    border: solid 2px rgba(255, 255, 255, .1);
+    border-radius: 5px;
+    box-shadow: 0 5px 0 1px rgba(200, 250, 255, .2);
+}
+
+footer a:active {
+    top: 4px;
+    box-shadow: 0 1px 0 1px rgba(200, 250, 255, .2);
 }
 
 
