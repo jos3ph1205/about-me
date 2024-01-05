@@ -295,23 +295,47 @@ footer {
     text-align: center;
     color: ghostwhite;
     background-color: rgb(10, 10, 20);
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
-footer a {
+footer #top {
     background-color: rgba(255, 255, 255, .1);
     color: azure;
     text-decoration: none;
+    font-size: 12px;
     position: relative;
     padding: 5px 10px;
     border: solid 2px rgba(255, 255, 255, .1);
     border-radius: 5px;
-    box-shadow: 0 5px 0 1px rgba(200, 250, 255, .2);
+    box-shadow: 0 3px 0 1px rgba(200, 250, 255, .2);
 }
 
-footer a:active {
-    top: 4px;
+footer #top:active {
+    top: 3px;
     box-shadow: 0 1px 0 1px rgba(200, 250, 255, .2);
+}
+
+#footer-links {
+    margin: 20px 0;
+}
+
+.foot-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.foot-link:hover {
+    background-color: rgba(220, 220, 255, .2);
+    scale: 103%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .5);
+}
+
+.foot-link:active {
+    background-color: rgba(220, 220, 255, .4);
 }
 
 
