@@ -295,7 +295,7 @@ footer {
     text-align: center;
     color: ghostwhite;
     background-color: rgb(10, 10, 20);
-    padding: 20px 0;
+    padding: 20px 0 30px;
 }
 
 footer #top {
@@ -316,7 +316,7 @@ footer #top:active {
 }
 
 #footer-links {
-    margin: 20px 0;
+    margin: 0 0 20px;
 }
 
 .foot-link {
